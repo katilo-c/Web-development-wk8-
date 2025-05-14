@@ -22,7 +22,8 @@ This is a multi-page blog website built for a Web Development assignment. It use
 
 ## Live Demo
 
-👉 [View Live Site](#)
+👉 [View Live Site](https://github.com/katilo-c/Web-development-wk8-/deployments/github-pages)
+
 
 ## How to Use
 
