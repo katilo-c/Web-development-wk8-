@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Blog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 class="fade-in">Welcome to My Blog</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+       <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero fade-in">
+      <h2>Sharing Ideas, Stories & Code</h2>
+      <p>Welcome to a space where I write about web development, technology trends, and my personal journey in tech.</p>
+    </section>
+    <br>
+  
+    <!-- Introduction Section -->
+    <section class="intro">
+      <h2>Hi, I'm Katilo 👋</h2>
+      <p>
+        I'm a web developer passionate about creating intuitive, responsive websites and learning new technologies. 
+        This blog is where I share tutorials, insights, and tips about coding and the tech industry.
+      </p>
+    </section>
+    <br>
+
+    <!-- Blog Preview Section -->
+    <section class="blog-posts">
+      <h2>Recent Posts</h2><br>
+
+      <article class="blog-preview">
+        <h3>📘 Getting Started with HTML & CSS</h3>
+        <p>Contact me for a beginner-friendly guide to understanding the building blocks of the web.</p>
+        
+      </article><br>
+
+      <article class="blog-preview">
+        <h3>⚡ JavaScript in Action</h3>
+        <p>Learn how to make your webpages dynamic using vanilla JavaScript with me.</p>
+       
+      </article><br>
+
+      <article class="blog-preview">
+        <h3>🎨 CSS Tricks for Stunning UI</h3>
+        <p>Explore powerful styling techniques with animations, transitions and layout tips.</p>
+     
+      </article>
+    </section><br>
+
+   <section class="cta">
+  <h2>Join the Community</h2>
+  <p>Subscribe to get updates on new posts, tutorials and coding challenges.</p>
+
+  <label for="username">Your Name:</label>
+  <input type="text" id="username" />
+  <button onclick="saveName()">Subscribe</button>
+
+  <!-- This element is required -->
+  <p id="welcome"></p>
+</section>
+
+
+  <footer>
+    <p>&copy; 2025 Katilo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
